@@ -1,0 +1,38 @@
+[INFO] [2023-11-04 00:01:43.780] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-04 00:01:43.795] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40627 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-04 00:01:43.795] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-04 00:01:44.360] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-04 00:01:44.497] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-04 00:01:59.032] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-04 00:01:59.047] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40639 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-04 00:01:59.048] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-04 00:01:59.602] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-04 00:01:59.742] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-04 00:02:14.273] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-04 00:02:14.287] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40653 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-04 00:02:14.287] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-04 00:02:14.848] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-04 00:02:14.989] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-04 00:04:57.336] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-04 00:04:57.351] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40704 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-04 00:04:57.354] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-04 00:04:57.917] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-04 00:04:58.056] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-04 00:07:56.461] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-04 00:07:56.477] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40799 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-04 00:07:56.478] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-04 00:07:57.093] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-04 00:07:57.244] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-04 00:08:01.333] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-04 00:08:01.336] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-04 00:08:01.339] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-04 00:08:01.351] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-04 00:08:01.377] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 5.213 seconds (process running for 5.466)
+[INFO] [2023-11-04 00:08:01.708] [RMI TCP Connection(4)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-04 00:08:01.712] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-04 00:08:01.775] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@635d60ec
+[INFO] [2023-11-04 00:08:01.776] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-04 00:08:06.673] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-04 00:08:06.675] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-04 00:08:06.677] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-04 00:08:06.680] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.zt25</groupId>
+    <artifactId>framework</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>zt25-core</module>
+        <module>zt25-aop</module>
+        <module>zt25-web</module>
+        <module>zt25-converter</module>
+        <module>zt25-middle</module>
+        <module>zt25-persistence</module>
+        <module>zt25-start</module>
+        <module>examples</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+
+        <!-- 插件 -->
+        <maven.plugin.version>3.0.9</maven.plugin.version>
+        <maven.compiler.version>3.11.0</maven.compiler.version>
+        <maven.resource.version>3.3.0</maven.resource.version>
+        <maven.surefire.version>3.1.2</maven.surefire.version>
+        <versions-maven-plugin.version>2.16.0</versions-maven-plugin.version>
+
+        <!-- spring -->
+        <spring-boot.version>3.0.9</spring-boot.version>
+        <spring-cloud.version>2022.0.4</spring-cloud.version>
+
+        <groovy.version>3.0.19</groovy.version>
+        <aspectj.version>1.9.20.1</aspectj.version>
+        <!-- zt25-framework -->
+        <zt25.version>1.0.0</zt25.version>
+
+        <!-- 数据库相关 -->
+        <mysql-connector.version>8.0.33</mysql-connector.version>
+        <oracle11-jdbc.version>23.3.0.23.09</oracle11-jdbc.version>
+        <mybatis-flex.version>1.0.7</mybatis-flex.version>
+        <mybatis-plus.version>3.5.4</mybatis-plus.version>
+        <mybatis-plus-join.version>1.4.7</mybatis-plus-join.version>
+        <druid.version>1.2.19</druid.version>
+        <jnanoid.version>2.0.0</jnanoid.version>
+        <mybatis-spring.version>3.0.2</mybatis-spring.version>
+
+        <!-- 辅助工具 -->
+        <validation-api.version>2.0.1.Final</validation-api.version>
+        <commons-lang3.version>3.13.0</commons-lang3.version>
+        <mapstruct.version>1.5.5.Final</mapstruct.version>
+        <fastjson2.version>2.0.41</fastjson2.version>
+        <jackson.version>2.15.2</jackson.version>
+        <hutool.version>5.8.22</hutool.version>
+        <bcprov-jdk15on.version>1.70</bcprov-jdk15on.version>
+        <lombok.version>1.18.30</lombok.version>
+    </properties>
+
+    <!-- 项目依赖 -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2-extension-spring6</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- 依赖管理器 -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- spring-boot -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-autoconfigure</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jdbc</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-webflux</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-undertow</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>${spring-boot.version}</version>
+                <optional>true</optional>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-validation</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-logging</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>runtime</scope>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.codehaus.janino</groupId>
+                <artifactId>janino</artifactId>
+                <version>3.0.6</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-all</artifactId>
+                <version>${groovy.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjtools</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+
+            <!-- database -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.yulichang</groupId>
+                <artifactId>mybatis-plus-join-boot-starter</artifactId>
+                <version>${mybatis-plus-join.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
+            </dependency>
+            <!-- JDBC -->
+            <dependency>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc11</artifactId>
+                <version>${oracle11-jdbc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.oracle.database.nls</groupId>
+                <artifactId>orai18n</artifactId>
+                <version>${oracle11-jdbc.version}</version>
+            </dependency>
+
+            <!-- tools -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-processor</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.alibaba.fastjson2/fastjson2 -->
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>${fastjson2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2-extension-spring6</artifactId>
+                <version>${fastjson2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-bom</artifactId>
+                <version>${hutool.version}</version>
+                <type>pom</type>
+                <!-- 注意这里是import -->
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15on</artifactId>
+                <version>${bcprov-jdk15on.version}</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.alibaba</groupId>-->
+<!--                <artifactId>druid-spring-boot-starter</artifactId>-->
+<!--                <version>${druid.version}</version>-->
+<!--            </dependency>-->
+
+            <!-- zt25 -->
+            <dependency>
+                <groupId>org.zt25</groupId>
+                <artifactId>zt25-core</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25</groupId>
+                <artifactId>zt25-aop</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.zt25</groupId>
+                <artifactId>zt25-converter</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.web</groupId>
+                <artifactId>zt25-web-domain</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.web</groupId>
+                <artifactId>zt25-web-base</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.persistence</groupId>
+                <artifactId>zt25-persistence-domain</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.persistence</groupId>
+                <artifactId>zt25-persistence-orm</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.persistence</groupId>
+                <artifactId>zt25-persistence-mongo</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.middle</groupId>
+                <artifactId>zt25-config-center</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.middle</groupId>
+                <artifactId>zt25-event</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.middle</groupId>
+                <artifactId>zt25-gateway</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zt25.middle</groupId>
+                <artifactId>zt25-redis</artifactId>
+                <version>${zt25.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.zt25.start</groupId>
+                <artifactId>zt25-web-spring-boot-start</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- test -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.aventrix.jnanoid</groupId>
+                <artifactId>jnanoid</artifactId>
+                <version>${jnanoid.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>zt25-maven-releases-repo</id>
+            <name>nexus 私服</name>
+            <url>http://192.168.111.220:8800/repository/maven-zt25/</url>
+            <layout>default</layout>
+        </repository>
+<!--        <snapshotRepository>-->
+<!--            <id>zt25-maven-repo</id>-->
+<!--            <name>nexus 私服</name>-->
+<!--            <url>http://192.168.111.220:8800/repository/maven-zt25/</url>-->
+<!--            <layout>default</layout>-->
+<!--        </snapshotRepository>-->
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>zt25-maven-private-repo</id>
+            <name>nexus 私服</name>
+            <url>http://192.168.111.220:8800/repository/maven-public/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>zt25-maven-private-repo</id>
+            <name>nexus 私服</name>
+            <url>http://192.168.111.220:8800/repository/maven-public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>maven-private-repo</id>-->
+<!--            <name>nexus 私服</name>-->
+<!--            <url>http://192.168.111.220:8800/repository/maven-public</url>-->
+<!--            <releases>-->
+<!--                <enabled>true</enabled>-->
+<!--            </releases>-->
+<!--            <snapshots>-->
+<!--                <enabled>true</enabled>-->
+<!--                <updatePolicy>always</updatePolicy>-->
+<!--            </snapshots>-->
+<!--        </repository>-->
+<!--    </repositories>-->
+
+</project>

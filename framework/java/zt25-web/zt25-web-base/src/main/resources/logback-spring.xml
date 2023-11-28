@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--默认每隔一分钟扫描此配置文件的修改并重新加载-->
+<!-- <configuration scan="true" scanPeriod="60 seconds"> -->
+<configuration>
+
+    <!--定义日志文件的存储地址 勿在LogBack的配置中使用相对路径-->
+    <springProperty name="projectName" source="spring.application.name"/>
+    <property name="maxHistory" value="30"/><!-- 日志最大的历史 30天 -->
+    <property name="log_style" value="[%level] [%date{yyyy-MM-dd HH:mm:ss.SSS}] [%thread] %class.%method：%logger{50}-%msg%n"/>
+<!--    <property name="log_style" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50}-%msg%n"/>-->
+
+    <!-- 开发环境 -->
+    <springProfile name="dev">
+        <springProperty name="log_dir" source="logging.file.path" defaultValue="./logs"/>
+        <property name="spring-profile" value="dev"/>
+    </springProfile>
+    <!-- 测试环境 -->
+    <springProfile name="test">
+        <springProperty name="log_dir" source="logging.file.path" defaultValue="/app/logs"/>
+        <property name="spring-profile" value="test"/>
+    </springProfile>
+    <!-- 生产环境 -->
+    <springProfile name="prod">
+        <springProperty name="log_dir" source="logging.file.path" defaultValue="/app/logs"/>
+        <property name="spring-profile" value="prod"/>
+    </springProfile>
+
+    <!-- 通过 org.codehaus.janino 进行条件判断,如果时开发环境,则在控制台打印log -->
+    <if condition='property("spring-profile").equals("dev")'>
+        <then>
+            <!-- 控制台输出 -->
+            <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+                <encoder>
+                    <pattern>${log_style}</pattern>
+                </encoder>
+            </appender>
+        </then>
+    </if>
+
+
+    <!-- INFO级别日志 appender -->
+    <appender name="INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 过滤器，只记录INFO级别的日志 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>${log_dir}/${projectName}/%d{yyyy-MM-dd}/info-log-%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize> <!--每个文件最多100MB-->
+                <maxHistory>15</maxHistory> <!--日志文件保留天数-->
+                <totalSizeCap>20GB</totalSizeCap> <!--每个文件最多100MB，保留15天的历史记录，但最多20GB-->
+                <cleanHistoryOnStart>true</cleanHistoryOnStart> <!--重启清理日志文件-->
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${log_style}</pattern>
+        </encoder>
+        <!-- 追加方式记录日志 -->
+        <append>true</append>
+    </appender>
+
+    <!-- WARN级别日志 appender -->
+    <appender name="WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 过滤器，只记录WARN级别的日志 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>${log_dir}/${projectName}/%d{yyyy-MM-dd}/warn-log-%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize> <!--每个文件最多100MB-->
+                <maxHistory>15</maxHistory> <!--日志文件保留天数-->
+                <totalSizeCap>20GB</totalSizeCap> <!--每个文件最多100MB，保留15天的历史记录，但最多20GB-->
+                <cleanHistoryOnStart>true</cleanHistoryOnStart> <!--重启清理日志文件-->
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${log_style}</pattern>
+        </encoder>
+        <append>true</append> <!-- 追加方式记录日志 -->
+    </appender>
+
+
+    <!-- ERROR级别日志 appender -->
+    <appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 过滤器，只记录WARN级别的日志 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <!-- 最常用的滚动策略，它根据时间来制定滚动策略.既负责滚动也负责出发滚动 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--日志输出位置 可相对、和绝对路径 -->
+            <fileNamePattern>${log_dir}/${projectName}/%d{yyyy-MM-dd}/error-log-%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize> <!--每个文件最多100MB-->
+                <maxHistory>15</maxHistory> <!--日志文件保留天数-->
+                <totalSizeCap>20GB</totalSizeCap> <!--每个文件最多100MB，保留15天的历史记录，但最多20GB-->
+                <cleanHistoryOnStart>true</cleanHistoryOnStart> <!--重启清理日志文件-->
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>${log_style}</pattern>
+        </encoder>
+        <append>true</append> <!-- 追加方式记录日志 -->
+    </appender>
+
+
+    <!-- DEBUG级别日志 appender -->
+    <appender name="DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 过滤器，只记录DEBUG级别的日志 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>${log_dir}/${ProjectName}/%d{yyyy-MM-dd}/debug-log-%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize> <!--每个文件最多100MB-->
+                <maxHistory>15</maxHistory> <!--日志文件保留天数-->
+                <totalSizeCap>20GB</totalSizeCap> <!--每个文件最多100MB，保留15天的历史记录，但最多20GB-->
+                <cleanHistoryOnStart>true</cleanHistoryOnStart> <!--重启清理日志文件-->
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${log_style}</pattern>
+        </encoder>
+        <append>true</append> <!-- 追加方式记录日志 -->
+    </appender>
+
+    <!-- skywalking grpc 日志收集 8.4.0版本开始支持 -->
+    <!--    <appender name="skywalking-log" class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.log.GRPCLogClientAppender">-->
+    <!--        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">-->
+    <!--            <layout class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.mdc.TraceIdMDCPatternLogbackLayout">-->
+    <!--                <pattern>${CONSOLE_LOG_PATTERN}</pattern>-->
+    <!--            </layout>-->
+    <!--        </encoder>-->
+    <!--    </appender>-->
+
+    <!-- 系统模块日志级别控制  -->
+<!--    <logger name="com.ax.pg.mapper" level="debug" additivity="false"/>-->
+    <!-- Spring日志级别控制  -->
+    <logger name="org.springframework" level="info" additivity="false"/>
+    <!-- 健康检测  -->
+    <logger name="org.apache.http" level="info" additivity="false"/>
+
+    <!--系统操作日志-->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="INFO"/>
+        <appender-ref ref="WARN"/>
+        <appender-ref ref="ERROR"/>
+        <appender-ref ref="DEBUG"/>
+<!--        <appender-ref ref="skywalking-log"/>-->
+    </root>
+</configuration>

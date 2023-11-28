@@ -1,0 +1,66 @@
+# 服务端口配置
+server:
+  port: ${port:8080}
+  servlet:
+    context-path: ${context-path:/}
+
+spring:
+  application:
+    name: ${appName:template-app}
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    # MYSQL、ORACLE、SQL_SERVER、DM
+    database: ${zt25.ds.database:mariadb}
+    # 数据库驱动 mysql 【com.mysql.cj.jdbc.Driver】
+    # 数据库驱动 oracle 【oracle.jdbc.driver.OracleDriver】
+    driver-class-name: ${zt25.ds.driver-class-name:org.mariadb.jdbc.Driver}
+    # 数据库连接 Oracle 【jdbc:oracle:thin:xx.xx.xx.xx:1521:xx】
+    # 数据库连接 Mysql 【jdbc:mysql://xx.xx.xx.xx:3306/xx?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf-8】
+    url:  ${zt25.ds.url}
+    username: ${zt25.ds.username}
+    password: ${zt25.ds.password}
+    hikari:
+      # 连接池中允许的最小连接数。缺省值：10
+      minimum-idle: ${zt25.connect.min-idle:100}
+      # 连接池中允许的最大连接数。缺省值：10
+      maximum-pool-size: ${zt25.connect.max-pool-size:100}
+      # 自动提交
+      auto-commit: true
+      # 一个连接idle状态的最大时长（毫秒），超时则被释放（retired），缺省:10分钟
+      idle-timeout: 600
+      # 连接池名字
+      pool-name: hikari-zt25-pool
+      # 一 个连接的生命时长（毫秒），超时而且没被使用则被释放（retired），缺省:30分钟，建议设置比数据库超时时长少30秒
+      max-lifetime: ${zt25.connect.max-lifetime:1800000}
+      # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 缺省:30秒
+      connection-timeout: ${zt25.connect.connection-timeout:30000}
+      # 获取连接时，检测语句
+      connection-test-query: select 1
+
+# 配置mybatis-plus的xml和bean的目录
+mybatis-plus:
+  configuration:
+    # 开启驼峰命名自动映射
+    map-underscore-to-camel-case: true
+    # 开启日志打印
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 配置列空值类型 JdbcTypeForNull, oracle数据库必须配置。注意单引号，默认为other
+    jdbc-type-for-null: 'null'
+  global-config:
+    db-config:
+      # 逻辑已删除值(默认为 1)
+      logic-delete-value: 1
+      # 逻辑未删除值(默认为 0)
+      logic-not-delete-value: 0
+    # 刷新mapper 调试神器
+    refresh-mapper: true
+
+# log 配置
+logging:
+  config: classpath:logback-spring.xml
+  # log level
+  level:
+    root: ${zt25.logging.level:debug}

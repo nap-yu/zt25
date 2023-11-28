@@ -1,0 +1,385 @@
+2023-11-01 22:37:00.276 [background-preinit] DEBUG org.jboss.logging-Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2023-11-01 22:37:00.280 [background-preinit] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-11-01 22:37:00.280 [background-preinit] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via TCCL
+2023-11-01 22:37:00.280 [background-preinit] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-11-01 22:37:00.281 [background-preinit] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-No META-INF/validation.xml found. Using annotation based configuration only.
+2023-11-01 22:37:00.282 [background-preinit] DEBUG o.h.v.i.engine.resolver.TraversableResolvers-Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-11-01 22:37:00.292 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator-Loaded expression factory via original TCCL
+2023-11-01 22:37:00.293 [main] DEBUG org.zt25.example.RunApplication-Running with Spring Boot v3.0.9, Spring v6.0.11
+2023-11-01 22:37:00.334 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-11-01 22:37:00.337 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-11-01 22:37:00.337 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-11-01 22:37:00.337 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-11-01 22:37:00.337 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-11-01 22:37:00.337 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-11-01 22:37:00.682 [main] DEBUG org.apache.ibatis.logging.LogFactory-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-11-01 22:37:00.683 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/org/zt25/example/mapper/DemoMapper.class]
+2023-11-01 22:37:00.683 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/org/zt25/example/mapper/DeptMapper.class]
+2023-11-01 22:37:00.683 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/org/zt25/example/mapper/OrgMapper.class]
+2023-11-01 22:37:00.684 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'demoMapper' and 'org.zt25.example.mapper.DemoMapper' mapperInterface
+2023-11-01 22:37:00.685 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Enabling autowire by type for MapperFactoryBean with name 'demoMapper'.
+2023-11-01 22:37:00.685 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'deptMapper' and 'org.zt25.example.mapper.DeptMapper' mapperInterface
+2023-11-01 22:37:00.685 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Enabling autowire by type for MapperFactoryBean with name 'deptMapper'.
+2023-11-01 22:37:00.685 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'orgMapper' and 'org.zt25.example.mapper.OrgMapper' mapperInterface
+2023-11-01 22:37:00.685 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Enabling autowire by type for MapperFactoryBean with name 'orgMapper'.
+2023-11-01 22:37:00.845 [main] DEBUG io.undertow.session-Setting default session timeout to 1800
+2023-11-01 22:37:00.893 [main] DEBUG io.undertow.session-Registered session listener io.undertow.servlet.core.SessionListenerBridge@42ed89da
+2023-11-01 22:37:00.907 [main] DEBUG io.undertow.session-Setting default session timeout to 1800
+2023-11-01 22:37:00.952 [main] DEBUG com.zaxxer.hikari.HikariConfig-Driver class org.mariadb.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+2023-11-01 22:37:00.982 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Registered plugin: 'org.zt25.persistence.orm.interceptor.OrmParametersInterceptor@6a98f353'
+2023-11-01 22:37:00.983 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@3b35798'
+2023-11-01 22:37:00.983 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Registered plugin: 'com.github.yulichang.interceptor.MPJInterceptor@1e00bfe2'
+2023-11-01 22:37:01.074 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Parsed mapper file: 'file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/mapper/org-mapper.xml]'
+2023-11-01 22:37:01.139 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator-Loaded expression factory via original TCCL
+2023-11-01 22:37:01.140 [main] DEBUG o.h.v.internal.engine.AbstractConfigurationImpl-Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-11-01 22:37:01.140 [main] DEBUG o.h.v.internal.engine.AbstractConfigurationImpl-Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-11-01 22:37:01.141 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-11-01 22:37:01.141 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via user class loader
+2023-11-01 22:37:01.141 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via TCCL
+2023-11-01 22:37:01.141 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-11-01 22:37:01.141 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-No META-INF/validation.xml found. Using annotation based configuration only.
+2023-11-01 22:37:01.142 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers-Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-11-01 22:37:01.142 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-11-01 22:37:01.143 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-11-01 22:37:01.143 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-11-01 22:37:01.143 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-11-01 22:37:01.143 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-11-01 22:37:01.143 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-11-01 22:37:01.234 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.z.e.c.DeptController:
+	{GET [/dept/get/{id}]}: getDept(String)
+2023-11-01 22:37:01.235 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.z.e.c.OrgController:
+	
+2023-11-01 22:37:01.235 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.z.e.c.TestController:
+	
+2023-11-01 22:37:01.236 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-11-01 22:37:01.244 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-'beanNameHandlerMapping' {}
+2023-11-01 22:37:01.250 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2023-11-01 22:37:01.328 [main] DEBUG i.m.c.util.internal.logging.InternalLoggerFactory-Using SLF4J as the default logging framework
+2023-11-01 22:37:01.414 [main] DEBUG org.xnio-Creating worker:null, pool size:96, max pool size:96, keep alive:60000, io threads:12, stack size:0
+2023-11-01 22:37:01.424 [XNIO-1 I/O-2] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.KQueueSelectorImpl@5d619820
+2023-11-01 22:37:01.424 [XNIO-1 I/O-3] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.KQueueSelectorImpl@713af471
+2023-11-01 22:37:01.424 [XNIO-1 I/O-1] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.KQueueSelectorImpl@579759a9
+2023-11-01 22:37:01.424 [XNIO-1 I/O-4] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.KQueueSelectorImpl@5192ef2e
+2023-11-01 22:37:01.424 [XNIO-1 I/O-6] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-6', selector sun.nio.ch.KQueueSelectorImpl@6c9910f1
+2023-11-01 22:37:01.424 [XNIO-1 I/O-5] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-5', selector sun.nio.ch.KQueueSelectorImpl@7193775a
+2023-11-01 22:37:01.424 [XNIO-1 I/O-7] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-7', selector sun.nio.ch.KQueueSelectorImpl@11ac3bb5
+2023-11-01 22:37:01.424 [XNIO-1 I/O-8] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-8', selector sun.nio.ch.KQueueSelectorImpl@12cd3d23
+2023-11-01 22:37:01.424 [XNIO-1 I/O-9] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-9', selector sun.nio.ch.KQueueSelectorImpl@365d3315
+2023-11-01 22:37:01.425 [XNIO-1 I/O-10] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-10', selector sun.nio.ch.KQueueSelectorImpl@4ef0943e
+2023-11-01 22:37:01.425 [XNIO-1 I/O-11] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-11', selector sun.nio.ch.KQueueSelectorImpl@7d540058
+2023-11-01 22:37:01.425 [XNIO-1 I/O-12] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-12', selector sun.nio.ch.KQueueSelectorImpl@6f1d909f
+2023-11-01 22:37:01.425 [XNIO-1 Accept] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.KQueueSelectorImpl@3c5b3eaa
+2023-11-01 22:37:01.425 [main] DEBUG io.undertow-Configuring listener with protocol HTTP for interface 0.0.0.0 and port 10002
+2023-11-01 22:37:01.615 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-hikari-pg-pool - configuration:
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-allowPoolSuspension.............false
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-autoCommit......................true
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-catalog.........................none
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-connectionInitSql...............none
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-connectionTestQuery............."select 1"
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-connectionTimeout...............30000
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSource......................none
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSourceClassName.............none
+2023-11-01 22:37:01.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSourceJNDI..................none
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSourceProperties............{password=<masked>}
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-driverClassName................."org.mariadb.jdbc.Driver"
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-exceptionOverrideClassName......none
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-healthCheckProperties...........{}
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-healthCheckRegistry.............none
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-idleTimeout.....................600000
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-initializationFailTimeout.......1
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-isolateInternalQueries..........false
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-jdbcUrl.........................jdbc:mariadb://192.168.64.10:3306/mia?useUnicode=true&serverTimezone=Asia/Shanghai%2B8&autoReconnect=true&autoReconnectForPools=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&characterEncoding=utf-8&charset=utf8mb4
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-keepaliveTime...................0
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-leakDetectionThreshold..........0
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-maxLifetime.....................1800000
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-maximumPoolSize.................100
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-metricRegistry..................none
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-metricsTrackerFactory...........com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory@6f2e58fb
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-minimumIdle.....................10
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-password........................<masked>
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-poolName........................"hikari-pg-pool"
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-readOnly........................false
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-registerMbeans..................false
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-scheduledExecutor...............none
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-schema..........................none
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-threadFactory...................internal
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-transactionIsolation............default
+2023-11-01 22:37:01.617 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-username........................"mia"
+2023-11-01 22:37:01.618 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-validationTimeout...............5000
+2023-11-01 22:37:01.680 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.681 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.681 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.681 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.681 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.686 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: select 1
+2023-11-01 22:37:01.688 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SELECT @@session.tx_isolation
+2023-11-01 22:37:01.698 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: select 1
+2023-11-01 22:37:01.792 [hikari-pg-pool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2023-11-01 22:37:01.792 [hikari-pg-pool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2023-11-01 22:37:01.809 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.809 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.811 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.811 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.812 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.812 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@548d5a83
+2023-11-01 22:37:01.853 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.853 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.854 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.854 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.854 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.854 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@f029bfe
+2023-11-01 22:37:01.870 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.870 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.871 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.871 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.871 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.871 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@52029572
+2023-11-01 22:37:01.887 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.887 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.888 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.888 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.888 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.888 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@7f2ab75a
+2023-11-01 22:37:01.910 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.910 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.910 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.910 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.910 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.910 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@34ca82ce
+2023-11-01 22:37:01.924 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.924 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.925 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.925 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.925 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.925 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@4ea55759
+2023-11-01 22:37:01.938 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.939 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.939 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.939 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.939 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.939 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@339db5e5
+2023-11-01 22:37:01.955 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.955 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.955 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.955 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.955 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.955 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@1eb8b5d
+2023-11-01 22:37:01.970 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:01.971 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:01.971 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:01.971 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:01.971 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:01.971 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@40e97314
+2023-11-01 22:37:01.984 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-11-01 22:37:31.796 [hikari-pg-pool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Before cleanup stats (total=10, active=0, idle=10, waiting=0)
+2023-11-01 22:37:31.797 [hikari-pg-pool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - After cleanup  stats (total=10, active=0, idle=10, waiting=0)
+2023-11-01 22:37:31.797 [hikari-pg-pool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-11-01 22:37:39.762 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-11-01 22:37:39.762 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@7a894bef: (connection evicted)
+2023-11-01 22:37:39.763 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@548d5a83: (connection evicted)
+2023-11-01 22:37:39.763 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@f029bfe: (connection evicted)
+2023-11-01 22:37:39.763 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@52029572: (connection evicted)
+2023-11-01 22:37:39.763 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@7f2ab75a: (connection evicted)
+2023-11-01 22:37:39.764 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@34ca82ce: (connection evicted)
+2023-11-01 22:37:39.764 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@4ea55759: (connection evicted)
+2023-11-01 22:37:39.764 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@339db5e5: (connection evicted)
+2023-11-01 22:37:39.764 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@1eb8b5d: (connection evicted)
+2023-11-01 22:37:39.764 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@40e97314: (connection evicted)
+2023-11-01 22:37:39.764 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-11-01 22:37:41.429 [background-preinit] DEBUG org.jboss.logging-Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2023-11-01 22:37:41.434 [background-preinit] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-11-01 22:37:41.434 [background-preinit] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via TCCL
+2023-11-01 22:37:41.434 [background-preinit] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-11-01 22:37:41.435 [background-preinit] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-No META-INF/validation.xml found. Using annotation based configuration only.
+2023-11-01 22:37:41.437 [background-preinit] DEBUG o.h.v.i.engine.resolver.TraversableResolvers-Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-11-01 22:37:41.448 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator-Loaded expression factory via original TCCL
+2023-11-01 22:37:41.450 [main] DEBUG org.zt25.example.RunApplication-Running with Spring Boot v3.0.9, Spring v6.0.11
+2023-11-01 22:37:41.499 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-11-01 22:37:41.501 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-11-01 22:37:41.501 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-11-01 22:37:41.501 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-11-01 22:37:41.501 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-11-01 22:37:41.501 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-11-01 22:37:41.868 [main] DEBUG org.apache.ibatis.logging.LogFactory-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-11-01 22:37:41.869 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/org/zt25/example/mapper/DemoMapper.class]
+2023-11-01 22:37:41.870 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/org/zt25/example/mapper/DeptMapper.class]
+2023-11-01 22:37:41.870 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Identified candidate component class: file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/org/zt25/example/mapper/OrgMapper.class]
+2023-11-01 22:37:41.870 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'demoMapper' and 'org.zt25.example.mapper.DemoMapper' mapperInterface
+2023-11-01 22:37:41.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Enabling autowire by type for MapperFactoryBean with name 'demoMapper'.
+2023-11-01 22:37:41.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'deptMapper' and 'org.zt25.example.mapper.DeptMapper' mapperInterface
+2023-11-01 22:37:41.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Enabling autowire by type for MapperFactoryBean with name 'deptMapper'.
+2023-11-01 22:37:41.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Creating MapperFactoryBean with name 'orgMapper' and 'org.zt25.example.mapper.OrgMapper' mapperInterface
+2023-11-01 22:37:41.872 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner-Enabling autowire by type for MapperFactoryBean with name 'orgMapper'.
+2023-11-01 22:37:42.050 [main] DEBUG io.undertow.session-Setting default session timeout to 1800
+2023-11-01 22:37:42.108 [main] DEBUG io.undertow.session-Registered session listener io.undertow.servlet.core.SessionListenerBridge@65c17e38
+2023-11-01 22:37:42.121 [main] DEBUG io.undertow.session-Setting default session timeout to 1800
+2023-11-01 22:37:42.161 [main] DEBUG com.zaxxer.hikari.HikariConfig-Driver class org.mariadb.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+2023-11-01 22:37:42.193 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Registered plugin: 'org.zt25.persistence.orm.interceptor.OrmParametersInterceptor@1e00bfe2'
+2023-11-01 22:37:42.193 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4702e7a5'
+2023-11-01 22:37:42.193 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Registered plugin: 'com.github.yulichang.interceptor.MPJInterceptor@6a2d867d'
+2023-11-01 22:37:42.276 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean-Parsed mapper file: 'file [/Users/nap-yu/work/zt25/framework/java/examples/target/classes/mapper/org-mapper.xml]'
+2023-11-01 22:37:42.337 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator-Loaded expression factory via original TCCL
+2023-11-01 22:37:42.338 [main] DEBUG o.h.v.internal.engine.AbstractConfigurationImpl-Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-11-01 22:37:42.338 [main] DEBUG o.h.v.internal.engine.AbstractConfigurationImpl-Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-11-01 22:37:42.338 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-11-01 22:37:42.339 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via user class loader
+2023-11-01 22:37:42.339 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via TCCL
+2023-11-01 22:37:42.339 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper-Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-11-01 22:37:42.339 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser-No META-INF/validation.xml found. Using annotation based configuration only.
+2023-11-01 22:37:42.339 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers-Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-11-01 22:37:42.340 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-11-01 22:37:42.340 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-11-01 22:37:42.340 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-11-01 22:37:42.340 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-11-01 22:37:42.340 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-11-01 22:37:42.340 [main] DEBUG o.h.v.i.engine.ValidatorFactoryConfigurationHelper-HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-11-01 22:37:42.429 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.z.e.c.DeptController:
+	{GET [/dept/get/{id}]}: getDept(String)
+2023-11-01 22:37:42.430 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.z.e.c.OrgController:
+	
+2023-11-01 22:37:42.430 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.z.e.c.TestController:
+	
+2023-11-01 22:37:42.430 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-11-01 22:37:42.435 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-'beanNameHandlerMapping' {}
+2023-11-01 22:37:42.441 [main] DEBUG _.s.web.servlet.HandlerMapping.Mappings-'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2023-11-01 22:37:42.522 [main] DEBUG i.m.c.util.internal.logging.InternalLoggerFactory-Using SLF4J as the default logging framework
+2023-11-01 22:37:42.608 [main] DEBUG org.xnio-Creating worker:null, pool size:96, max pool size:96, keep alive:60000, io threads:12, stack size:0
+2023-11-01 22:37:42.618 [XNIO-1 I/O-2] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.KQueueSelectorImpl@58419f47
+2023-11-01 22:37:42.618 [XNIO-1 I/O-3] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.KQueueSelectorImpl@32e37fe4
+2023-11-01 22:37:42.618 [XNIO-1 I/O-4] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.KQueueSelectorImpl@19804f9b
+2023-11-01 22:37:42.618 [XNIO-1 I/O-1] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.KQueueSelectorImpl@1213ff9f
+2023-11-01 22:37:42.618 [XNIO-1 I/O-5] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-5', selector sun.nio.ch.KQueueSelectorImpl@a9face6
+2023-11-01 22:37:42.618 [XNIO-1 I/O-6] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-6', selector sun.nio.ch.KQueueSelectorImpl@3faa4d04
+2023-11-01 22:37:42.618 [XNIO-1 I/O-7] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-7', selector sun.nio.ch.KQueueSelectorImpl@5a6cddaa
+2023-11-01 22:37:42.618 [XNIO-1 I/O-8] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-8', selector sun.nio.ch.KQueueSelectorImpl@31e3b7a7
+2023-11-01 22:37:42.618 [XNIO-1 I/O-9] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-9', selector sun.nio.ch.KQueueSelectorImpl@453afa33
+2023-11-01 22:37:42.618 [XNIO-1 I/O-10] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-10', selector sun.nio.ch.KQueueSelectorImpl@57d1ec19
+2023-11-01 22:37:42.618 [XNIO-1 I/O-11] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-11', selector sun.nio.ch.KQueueSelectorImpl@371e3ef5
+2023-11-01 22:37:42.618 [XNIO-1 I/O-12] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 I/O-12', selector sun.nio.ch.KQueueSelectorImpl@260d635f
+2023-11-01 22:37:42.618 [XNIO-1 Accept] DEBUG org.xnio.nio-Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.KQueueSelectorImpl@40912c67
+2023-11-01 22:37:42.618 [main] DEBUG io.undertow-Configuring listener with protocol HTTP for interface 0.0.0.0 and port 10002
+2023-11-01 22:37:43.192 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-hikari-pg-pool - configuration:
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-allowPoolSuspension.............false
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-autoCommit......................true
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-catalog.........................none
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-connectionInitSql...............none
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-connectionTestQuery............."select 1"
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-connectionTimeout...............30000
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSource......................none
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSourceClassName.............none
+2023-11-01 22:37:43.193 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSourceJNDI..................none
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-dataSourceProperties............{password=<masked>}
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-driverClassName................."org.mariadb.jdbc.Driver"
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-exceptionOverrideClassName......none
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-healthCheckProperties...........{}
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-healthCheckRegistry.............none
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-idleTimeout.....................600000
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-initializationFailTimeout.......1
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-isolateInternalQueries..........false
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-jdbcUrl.........................jdbc:mariadb://192.168.64.10:3306/mia?useUnicode=true&serverTimezone=Asia/Shanghai%2B8&autoReconnect=true&autoReconnectForPools=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&characterEncoding=utf-8&charset=utf8mb4
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-keepaliveTime...................0
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-leakDetectionThreshold..........0
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-maxLifetime.....................1800000
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-maximumPoolSize.................100
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-metricRegistry..................none
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-metricsTrackerFactory...........com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory@67880b31
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-minimumIdle.....................10
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-password........................<masked>
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-poolName........................"hikari-pg-pool"
+2023-11-01 22:37:43.194 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-readOnly........................false
+2023-11-01 22:37:43.195 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-registerMbeans..................false
+2023-11-01 22:37:43.195 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-scheduledExecutor...............none
+2023-11-01 22:37:43.195 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-schema..........................none
+2023-11-01 22:37:43.195 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-threadFactory...................internal
+2023-11-01 22:37:43.195 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-transactionIsolation............default
+2023-11-01 22:37:43.195 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-username........................"mia"
+2023-11-01 22:37:43.195 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.zaxxer.hikari.HikariConfig-validationTimeout...............5000
+2023-11-01 22:37:43.249 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.249 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.249 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.249 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.250 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.253 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: select 1
+2023-11-01 22:37:43.254 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SELECT @@session.tx_isolation
+2023-11-01 22:37:43.263 [RMI TCP Connection(2)-127.0.0.1] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: select 1
+2023-11-01 22:37:43.358 [hikari-pg-pool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2023-11-01 22:37:43.359 [hikari-pg-pool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2023-11-01 22:37:43.363 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.363 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.364 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.364 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.364 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.364 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@13b825f2
+2023-11-01 22:37:43.381 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.381 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.382 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.382 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.382 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.382 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@2a085f0b
+2023-11-01 22:37:43.397 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.397 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.398 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.398 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.398 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.398 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@d988da
+2023-11-01 22:37:43.416 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.416 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.418 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.418 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.418 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.418 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@77fe1fb8
+2023-11-01 22:37:43.435 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.435 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.435 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.435 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.435 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.435 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@4e2826c9
+2023-11-01 22:37:43.451 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.451 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.451 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.451 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.451 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.451 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@3f70f75f
+2023-11-01 22:37:43.465 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.465 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.466 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.466 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.466 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.466 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@2c48f99f
+2023-11-01 22:37:43.480 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.480 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.481 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.481 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.481 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.481 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@70e47a
+2023-11-01 22:37:43.495 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-Database change: is 'mia'
+2023-11-01 22:37:43.495 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.client.impl.StandardClient-execute query: SET NAMES utf8mb4
+2023-11-01 22:37:43.495 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_connection = utf8mb4
+2023-11-01 22:37:43.495 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_client = utf8mb4
+2023-11-01 22:37:43.495 [hikari-pg-pool connection adder] DEBUG org.mariadb.jdbc.message.server.OkPacket-System variable change:  character_set_results = utf8mb4
+2023-11-01 22:37:43.495 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@353ca67f
+2023-11-01 22:37:43.507 [hikari-pg-pool connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-11-01 22:37:47.896 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-11-01 22:37:47.896 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@14976015: (connection evicted)
+2023-11-01 22:37:47.897 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@13b825f2: (connection evicted)
+2023-11-01 22:37:47.897 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@2a085f0b: (connection evicted)
+2023-11-01 22:37:47.897 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@d988da: (connection evicted)
+2023-11-01 22:37:47.898 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@77fe1fb8: (connection evicted)
+2023-11-01 22:37:47.898 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@4e2826c9: (connection evicted)
+2023-11-01 22:37:47.898 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@3f70f75f: (connection evicted)
+2023-11-01 22:37:47.898 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@2c48f99f: (connection evicted)
+2023-11-01 22:37:47.898 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@70e47a: (connection evicted)
+2023-11-01 22:37:47.898 [hikari-pg-pool connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase-hikari-pg-pool - Closing connection org.mariadb.jdbc.Connection@353ca67f: (connection evicted)
+2023-11-01 22:37:47.899 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - After shutdown stats (total=0, active=0, idle=0, waiting=0)

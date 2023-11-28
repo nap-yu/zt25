@@ -1,0 +1,513 @@
+[INFO] [2023-11-03 22:32:31.929] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 22:32:31.944] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 38209 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 22:32:31.944] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 3 profiles are active: "web", "orm", "dev"
+[INFO] [2023-11-03 22:32:32.574] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 22:32:32.761] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 22:32:33.227] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:32:33.232] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 22:32:33.237] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 22:32:33.251] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 22:38:16.886] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 22:38:16.902] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 38375 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 22:38:16.902] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 3 profiles are active: "orm", "web", "dev"
+[INFO] [2023-11-03 22:38:17.510] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 22:38:17.663] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 22:38:18.117] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:38:18.120] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 22:38:18.123] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 22:38:18.140] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 22:38:18.165] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.586 seconds (process running for 1.825)
+[INFO] [2023-11-03 22:38:18.712] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:38:18.715] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Starting...
+[INFO] [2023-11-03 22:38:18.781] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@79c2f8df
+[INFO] [2023-11-03 22:38:18.782] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Start completed.
+[INFO] [2023-11-03 22:38:22.476] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:38:22.479] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:38:22.481] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown initiated...
+[INFO] [2023-11-03 22:38:22.484] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown completed.
+[INFO] [2023-11-03 22:53:39.897] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 22:53:39.912] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 38876 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 22:53:39.915] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 3 profiles are active: "orm", "web", "dev"
+[INFO] [2023-11-03 22:53:40.474] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 22:53:40.616] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 22:53:41.030] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:53:41.033] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 22:53:41.036] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 22:53:41.048] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 22:53:41.074] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.465 seconds (process running for 1.681)
+[INFO] [2023-11-03 22:53:41.166] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:53:41.170] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Starting...
+[INFO] [2023-11-03 22:53:41.233] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@7d5391f7
+[INFO] [2023-11-03 22:53:41.234] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Start completed.
+[INFO] [2023-11-03 22:55:08.324] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:55:08.326] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:55:08.328] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown initiated...
+[INFO] [2023-11-03 22:55:08.331] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown completed.
+[INFO] [2023-11-03 22:55:25.720] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 22:55:25.738] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 38903 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 22:55:25.739] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 2 profiles are active: "web", "dev"
+[INFO] [2023-11-03 22:55:26.349] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 22:55:26.494] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 22:55:26.929] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:55:26.932] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 22:55:26.936] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 22:55:26.955] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 22:55:26.983] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.773 seconds (process running for 1.992)
+[INFO] [2023-11-03 22:55:27.274] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:55:27.278] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Starting...
+[INFO] [2023-11-03 22:55:27.339] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@15f9dc13
+[INFO] [2023-11-03 22:55:27.340] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Start completed.
+[INFO] [2023-11-03 22:55:33.501] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:55:33.502] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:55:33.504] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown initiated...
+[INFO] [2023-11-03 22:55:33.507] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown completed.
+[INFO] [2023-11-03 22:55:55.183] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 22:55:55.199] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 38934 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 22:55:55.199] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 22:55:55.762] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 22:55:55.906] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 22:55:56.325] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:55:56.329] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 22:55:56.332] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 22:55:56.345] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 22:55:56.373] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.478 seconds (process running for 1.695)
+[INFO] [2023-11-03 22:55:56.445] [RMI TCP Connection(5)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:55:56.449] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Starting...
+[INFO] [2023-11-03 22:55:56.515] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-pg-pool - Added connection org.mariadb.jdbc.Connection@8954366
+[INFO] [2023-11-03 22:55:56.517] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Start completed.
+[INFO] [2023-11-03 22:56:01.324] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 22:56:01.325] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 22:56:01.327] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown initiated...
+[INFO] [2023-11-03 22:56:01.330] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-pg-pool - Shutdown completed.
+[INFO] [2023-11-03 23:05:54.411] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:05:54.426] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39067 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:05:54.427] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:05:55.019] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:05:55.169] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:05:55.594] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:05:55.597] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:05:55.600] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:05:55.612] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:05:55.645] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.528 seconds (process running for 1.755)
+[INFO] [2023-11-03 23:05:56.224] [RMI TCP Connection(2)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:05:56.227] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:05:56.289] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@10d0eb5
+[INFO] [2023-11-03 23:05:56.291] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:06:00.173] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:06:00.175] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:06:00.177] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:06:00.180] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:06:10.053] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:06:10.079] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39103 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:06:10.079] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:06:10.765] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:06:10.914] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:06:11.349] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:06:11.352] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:06:11.355] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:06:11.366] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:06:11.390] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.788 seconds (process running for 2.087)
+[INFO] [2023-11-03 23:06:11.659] [RMI TCP Connection(4)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:06:11.662] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:06:11.727] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@174b9472
+[INFO] [2023-11-03 23:06:11.728] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:06:19.007] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:06:19.009] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:06:19.011] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:06:19.014] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:20:04.189] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:20:04.203] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39324 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:20:04.204] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:20:04.769] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:20:04.906] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:20:17.613] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:20:17.617] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:20:17.620] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:20:17.633] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:20:17.659] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 13.756 seconds (process running for 13.98)
+[INFO] [2023-11-03 23:20:17.987] [RMI TCP Connection(2)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:20:17.991] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:20:18.056] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@1aba89a6
+[INFO] [2023-11-03 23:20:18.058] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:20:27.566] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:20:27.568] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:20:27.570] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:20:27.573] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:20:43.814] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:20:43.828] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39346 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:20:43.829] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:20:44.392] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:20:44.529] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:20:49.144] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:20:49.147] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:20:49.150] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:20:49.163] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:20:49.191] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 5.683 seconds (process running for 5.896)
+[INFO] [2023-11-03 23:20:49.494] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:20:49.497] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:20:49.563] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@6147038a
+[INFO] [2023-11-03 23:20:49.564] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:20:57.431] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:20:57.432] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:20:57.434] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:20:57.437] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:21:02.546] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:21:02.562] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39363 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:21:02.562] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:21:03.148] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:21:03.285] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:21:03.701] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:21:03.704] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:21:03.707] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:21:03.718] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:21:03.742] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.542 seconds (process running for 1.765)
+[INFO] [2023-11-03 23:21:04.264] [RMI TCP Connection(2)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:21:04.268] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:21:04.328] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@32da0a82
+[INFO] [2023-11-03 23:21:04.330] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:21:33.579] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:21:33.581] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:21:33.583] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:21:33.587] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:22:25.559] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:22:25.574] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39393 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:22:25.574] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:22:26.141] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:22:37.017] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:22:58.955] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:22:58.969] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39415 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:22:58.969] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:23:23.843] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:23:23.861] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39431 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:23:23.862] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:24:28.036] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:24:28.050] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39452 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:24:28.051] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:24:28.611] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:25:05.433] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:25:36.268] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:25:36.282] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39479 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:25:36.282] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:25:36.840] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:25:45.407] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:26:27.407] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:26:27.422] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39511 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:26:27.422] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:28:20.022] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:28:20.037] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39545 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:28:20.037] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:28:20.599] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:28:24.381] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:28:24.812] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:28:24.815] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:28:24.818] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:28:24.832] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:28:24.857] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 5.128 seconds (process running for 5.343)
+[INFO] [2023-11-03 23:28:25.444] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:28:25.447] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:28:25.513] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@69a4970c
+[INFO] [2023-11-03 23:28:25.514] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:28:32.853] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:28:32.855] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:28:32.857] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:28:32.860] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:28:49.829] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:28:49.844] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39557 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:28:49.845] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:28:50.407] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:28:54.547] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:28:54.986] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:28:54.989] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:28:54.992] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:28:55.005] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:28:55.030] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 5.491 seconds (process running for 5.71)
+[INFO] [2023-11-03 23:28:55.614] [RMI TCP Connection(4)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:28:55.617] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:28:55.683] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@3317c582
+[INFO] [2023-11-03 23:28:55.684] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:29:04.012] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:29:04.014] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:29:04.016] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:29:04.020] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:30:20.817] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:30:20.832] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39578 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:30:20.833] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:30:21.395] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:30:21.529] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:30:21.931] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:30:21.934] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:30:21.938] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:30:21.948] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:30:21.973] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.45 seconds (process running for 1.665)
+[INFO] [2023-11-03 23:30:22.073] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:30:22.076] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:30:22.140] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@11068c49
+[INFO] [2023-11-03 23:30:22.141] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:31:45.760] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:31:45.763] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:31:45.764] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:31:45.767] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:31:57.676] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:31:57.694] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39645 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:31:57.695] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:31:58.400] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:31:58.546] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:31:58.988] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:31:58.991] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:31:58.999] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:31:59.011] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:31:59.035] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.825 seconds (process running for 2.121)
+[INFO] [2023-11-03 23:31:59.262] [RMI TCP Connection(6)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:31:59.268] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:31:59.341] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@ca24bdc
+[INFO] [2023-11-03 23:31:59.343] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:32:27.387] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:32:27.388] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:32:27.390] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:32:27.393] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:32:58.132] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:32:58.148] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39672 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:32:58.148] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:32:58.722] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:32:58.868] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:32:59.284] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:32:59.287] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:32:59.290] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:32:59.303] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:32:59.328] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.489 seconds (process running for 1.712)
+[INFO] [2023-11-03 23:32:59.403] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:32:59.406] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:32:59.470] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@33eab369
+[INFO] [2023-11-03 23:32:59.471] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:33:32.204] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:33:32.205] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:33:32.208] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:33:32.211] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:34:03.426] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:34:03.440] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39727 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:34:03.441] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:34:04.006] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:34:04.143] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:34:04.552] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:34:04.555] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:34:04.559] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:34:04.571] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:34:04.597] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.458 seconds (process running for 1.681)
+[INFO] [2023-11-03 23:34:04.694] [RMI TCP Connection(2)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:34:04.697] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:34:04.758] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@18be05b2
+[INFO] [2023-11-03 23:34:04.760] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:34:21.453] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:34:21.456] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:34:21.458] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:34:21.462] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:34:28.692] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:34:28.707] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39751 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:34:28.707] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:34:29.293] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:34:29.443] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:34:29.866] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:34:29.869] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:34:29.873] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:34:29.886] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:34:29.912] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.511 seconds (process running for 1.737)
+[INFO] [2023-11-03 23:34:30.494] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:34:30.498] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:34:30.565] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@64c64416
+[INFO] [2023-11-03 23:34:30.567] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:34:47.251] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:34:47.254] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:34:47.257] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:34:47.260] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:35:48.371] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:35:48.394] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39826 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:35:48.394] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:35:49.196] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:35:49.342] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:35:49.785] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:35:49.788] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:35:49.791] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:35:49.804] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:35:49.830] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.89 seconds (process running for 2.26)
+[INFO] [2023-11-03 23:35:49.965] [RMI TCP Connection(4)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:35:49.969] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:35:50.035] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@2bf4884a
+[INFO] [2023-11-03 23:35:50.036] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:36:21.831] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:36:21.834] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:36:21.837] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:36:21.841] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:36:37.437] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:36:37.458] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39882 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:36:37.459] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:36:38.287] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:36:38.465] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:36:38.939] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:36:38.943] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:36:38.952] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:36:38.966] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:36:38.994] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.988 seconds (process running for 2.318)
+[INFO] [2023-11-03 23:36:39.157] [RMI TCP Connection(4)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:36:39.160] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:36:39.226] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@3e6b8a9
+[INFO] [2023-11-03 23:36:39.228] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:36:49.774] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:36:49.777] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:36:49.779] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:36:49.783] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:37:17.411] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:37:17.426] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39904 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:37:17.426] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:37:17.997] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:37:18.142] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:37:18.579] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:37:18.582] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:37:18.586] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:37:18.598] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:37:18.626] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.504 seconds (process running for 1.719)
+[INFO] [2023-11-03 23:37:19.210] [RMI TCP Connection(2)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:37:19.218] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:37:19.283] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@beffec7
+[INFO] [2023-11-03 23:37:19.284] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:37:26.180] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:37:26.182] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:37:26.183] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:37:26.186] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:39:14.940] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:39:14.954] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 39987 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:39:14.955] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:39:15.524] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:39:15.655] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:39:16.064] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:39:16.068] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:39:16.071] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:39:16.084] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:39:16.109] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.454 seconds (process running for 1.67)
+[INFO] [2023-11-03 23:39:16.205] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:39:16.209] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:39:16.270] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@6992e8dc
+[INFO] [2023-11-03 23:39:16.271] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:39:21.212] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:39:21.215] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:39:21.217] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:39:21.220] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:40:18.730] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:40:18.761] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40044 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:40:18.762] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:40:51.820] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:40:51.840] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40091 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:40:51.841] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:41:51.881] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:41:51.896] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40136 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:41:51.897] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:42:13.237] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:42:13.253] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40154 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:42:13.253] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:42:13.823] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:42:13.969] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:42:14.379] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:42:14.382] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:42:14.385] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:42:14.396] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:42:14.421] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.479 seconds (process running for 1.699)
+[INFO] [2023-11-03 23:42:14.508] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:42:14.512] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:42:14.575] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@5c487ca4
+[INFO] [2023-11-03 23:42:14.576] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:42:34.050] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:42:34.053] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:42:34.055] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:42:34.059] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:42:51.299] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:42:51.316] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40184 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:42:51.316] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:42:51.879] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:42:52.028] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:42:52.455] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:42:52.459] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:42:52.462] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:42:52.474] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:42:52.500] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.484 seconds (process running for 1.701)
+[INFO] [2023-11-03 23:42:52.579] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:42:52.584] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:42:52.646] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@79b51c12
+[INFO] [2023-11-03 23:42:52.647] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:42:57.534] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:42:57.538] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:42:57.540] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:42:57.543] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:43:10.050] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:43:10.065] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40207 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:43:10.069] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:43:10.625] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:43:10.758] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:43:11.163] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:43:11.167] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:43:11.171] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:43:11.183] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:43:11.208] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.473 seconds (process running for 1.732)
+[INFO] [2023-11-03 23:43:11.788] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:43:11.792] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:43:11.855] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@6992e8dc
+[INFO] [2023-11-03 23:43:11.856] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:43:16.975] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:43:16.976] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:43:16.978] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:43:16.982] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:48:09.654] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:48:09.669] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40291 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:48:09.670] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:48:28.107] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:48:28.122] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40317 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:48:28.123] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:48:28.679] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:48:28.811] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:48:29.210] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:48:29.216] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:48:29.220] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:48:29.231] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:48:29.255] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.439 seconds (process running for 1.661)
+[INFO] [2023-11-03 23:48:29.378] [RMI TCP Connection(2)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:48:29.382] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:48:29.442] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@1574859d
+[INFO] [2023-11-03 23:48:29.444] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:48:32.571] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:48:32.573] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:48:32.576] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:48:32.579] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:48:38.331] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:48:38.346] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40327 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:48:38.346] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:48:38.916] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:48:39.054] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:48:39.455] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:48:39.459] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:48:39.463] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:48:39.475] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:48:39.500] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.487 seconds (process running for 1.703)
+[INFO] [2023-11-03 23:48:39.571] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:48:39.578] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:48:39.637] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@3645f92e
+[INFO] [2023-11-03 23:48:39.639] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:48:49.422] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:48:49.423] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:48:49.425] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:48:49.429] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.
+[INFO] [2023-11-03 23:53:08.876] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>：org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.1.Final
+[INFO] [2023-11-03 23:53:08.891] [main] org.springframework.boot.StartupInfoLogger.logStarting：org.zt25.example.RunApplication-Starting RunApplication using Java 17.0.6 with PID 40434 (/Users/nap-yu/work/low-code/zt25/framework/java/examples/target/classes started by nap-yu in /Users/nap-yu/work/low-code/zt25/framework/java)
+[INFO] [2023-11-03 23:53:08.891] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo：org.zt25.example.RunApplication-The following 1 profile is active: "dev"
+[INFO] [2023-11-03 23:53:09.463] [main] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring embedded WebApplicationContext
+[INFO] [2023-11-03 23:53:09.606] [main] com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration.mpjSqlInjector：c.g.y.a.MybatisPlusJoinAutoConfiguration-MPJSqlInjector init
+[INFO] [2023-11-03 23:53:10.010] [main] io.undertow.Undertow.start：io.undertow-starting server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:53:10.013] [main] org.xnio.Xnio.<clinit>：org.xnio-XNIO version 3.8.8.Final
+[INFO] [2023-11-03 23:53:10.016] [main] org.xnio.nio.NioXnio.<clinit>：org.xnio.nio-XNIO NIO Implementation Version 3.8.8.Final
+[INFO] [2023-11-03 23:53:10.028] [main] org.jboss.threads.Version.<clinit>：org.jboss.threads-JBoss Threads version 3.5.0.Final
+[INFO] [2023-11-03 23:53:10.057] [main] org.springframework.boot.StartupInfoLogger.logStarted：org.zt25.example.RunApplication-Started RunApplication in 1.493 seconds (process running for 1.713)
+[INFO] [2023-11-03 23:53:10.643] [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:53:10.647] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Starting...
+[INFO] [2023-11-03 23:53:10.711] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool.checkFailFast：com.zaxxer.hikari.pool.HikariPool-hikari-zt25-pool - Added connection org.mariadb.jdbc.Connection@57123793
+[INFO] [2023-11-03 23:53:10.712] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource.getConnection：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Start completed.
+[INFO] [2023-11-03 23:53:30.165] [SpringApplicationShutdownHook] io.undertow.Undertow.stop：io.undertow-stopping server: Undertow - 2.3.7.Final
+[INFO] [2023-11-03 23:53:30.167] [SpringApplicationShutdownHook] io.undertow.servlet.spec.ServletContextImpl.log：io.undertow.servlet-Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO] [2023-11-03 23:53:30.169] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown initiated...
+[INFO] [2023-11-03 23:53:30.171] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close：com.zaxxer.hikari.HikariDataSource-hikari-zt25-pool - Shutdown completed.

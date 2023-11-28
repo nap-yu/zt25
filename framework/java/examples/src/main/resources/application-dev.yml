@@ -1,0 +1,57 @@
+# 服务名称
+appName: web-demo
+
+# 服务端口配置 (可选属性,默认8080)
+port: 10002
+
+zt25:
+  # 连接配置
+  connect:
+    # 连接池中允许的最小连接数。缺省值：10
+    min-idle: 10
+    # 连接池中允许的最大连接数。缺省值：10
+    max-pool-size: 100
+    # 一 个连接的生命时长（毫秒），超时而且没被使用则被释放（retired），缺省:30分钟，建议设置比数据库超时时长少30秒
+    max-lifetime: 1800000
+    # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 缺省:30秒
+    connection-timeout: 30000
+  ds:
+    # MYSQL、ORACLE、SQL_SERVER、DM
+    database: mariadb
+    # 数据库驱动 mysql 【com.mysql.cj.jdbc.Driver】
+    # 数据库驱动 oracle 【oracle.jdbc.driver.OracleDriver】
+    driver-class-name: org.mariadb.jdbc.Driver
+    # 数据库连接 Oracle 【jdbc:oracle:thin:xx.xx.xx.xx:1521:xx】
+    # 数据库连接 Mysql 【jdbc:mysql://xx.xx.xx.xx:3306/xx?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf-8】
+    url: jdbc:mariadb://192.168.64.10:3306/mia?useUnicode=true&serverTimezone=Asia/Shanghai%2B8&autoReconnect=true&autoReconnectForPools=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&characterEncoding=utf-8&charset=utf8mb4
+    username: mia
+    password: miadb123456
+  orm:
+    default-pk-type: UUID
+  web:
+    # 拦截器配置
+    interceptor:
+      # 默认拦截器配置
+      default:
+        # 是否启用.默认:true
+        enable: true
+        # 加载顺序. 默认:100
+        order: 100
+        # 排除路径.默认:""
+        excludePath: null
+        # 拦截路径.默认:/**
+        addPath: /**
+      # 自定义拦截器配置
+      custom:
+        # 自定义拦截器包路径
+        packagePath: org.zt25.example.interceptor
+    # 请求加解密撇脂
+    encrypt:
+      # 算法配置
+      algorithm:
+        # 请求的解密算法
+        request: base64
+        # 响应的加密算法
+        response: base64
+  logging:
+    level: debug

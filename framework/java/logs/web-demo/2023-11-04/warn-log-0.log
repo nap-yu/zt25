@@ -1,0 +1,1 @@
+[WARN] [2023-11-04 00:08:01.709] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariConfig.validateNumerics：com.zaxxer.hikari.HikariConfig-hikari-zt25-pool - idleTimeout is less than 10000ms, setting to default 600000ms.

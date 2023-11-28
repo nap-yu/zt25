@@ -1,0 +1,28 @@
+2023-11-01 22:37:01.614 [RMI TCP Connection(2)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig
+                -hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2023-11-01 22:37:43.192 [RMI TCP Connection(2)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig
+                -hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:04:21.775] RMI TCP Connection(5)-127.0.0.1 com.zaxxer.hikari.HikariConfig.validateNumerics：1085
+hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+
+[WARN] [2023-11-01 23:06:16.794] [RMI TCP Connection(4)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：1085
+hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+
+[WARN] [2023-11-01 23:06:46.647] [RMI TCP Connection(2)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：com.zaxxer.hikari.HikariConfig-1085
+hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+
+2023-11-01 23:07:33.712 [RMI TCP Connection(5)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2023-11-01 23:08:06.114 [RMI TCP Connection(3)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2023-11-01 23:08:53.168 [RMI TCP Connection(3)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2023-11-01 23:09:16.994 [RMI TCP Connection(2)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:10:08.199] [RMI TCP Connection(5)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:10:43.416] [RMI TCP Connection(4)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2023-11-01 23:11:07.310 [RMI TCP Connection(5)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:12:20.647] [RMI TCP Connection(3)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:24:57.889] [RMI TCP Connection(2)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:26:38.896] [RMI TCP Connection(2)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2023-11-01 23:28:06.993 [RMI TCP Connection(3)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2023-11-01 23:28:31.501 [RMI TCP Connection(2)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:28:58.872] [RMI TCP Connection(3)-127.0.0.1] WARN  com.zaxxer.hikari.HikariConfig.validateNumerics：hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:30:56.217] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariConfig.validateNumerics：com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
+[WARN] [2023-11-01 23:34:44.733] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariConfig.validateNumerics：com.zaxxer.hikari.HikariConfig-hikari-pg-pool - idleTimeout is less than 10000ms, setting to default 600000ms.
